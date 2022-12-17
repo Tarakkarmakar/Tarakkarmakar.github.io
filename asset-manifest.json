@@ -1,38 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a8c995b.css",
-    "main.js": "/static/js/main.b911a524.js",
+    "main.css": "/static/css/main.809745d9.css",
+    "main.js": "/static/js/main.648d6b84.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Revv.png": "/static/media/Revv.4892f5c28c28a10ee1b8.png",
     "static/media/olx.png": "/static/media/olx.c092e25f31ba19a3c35f.png",
     "static/media/men_sitting.png": "/static/media/men_sitting.49b352f0f8dcecee7925.png",
-    "static/media/My_pic.png": "/static/media/My_pic.ba504c56131f2b26dba0.png",
     "static/media/Buffer.png": "/static/media/Buffer.57b9e3cd28640b16522c.png",
     "static/media/calendar.png": "/static/media/calendar.35bd6381af6b6db612b2.png",
     "static/media/HTML.png": "/static/media/HTML.3fa3e93660e6ed512957.png",
-    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/VScode.png": "/static/media/VScode.a7b311f737293e86e06f.png",
     "static/media/chakra.png": "/static/media/chakra.d889628ab3417670ece8.png",
     "static/media/javascript.png": "/static/media/javascript.1e07b094f02c40a2a6a0.png",
     "static/media/react.png": "/static/media/react.345a018f7d5d8949f14f.png",
     "static/media/express.png": "/static/media/express.aafe9c831a4eb7bd69e4.png",
+    "static/media/Tarak_logo.png": "/static/media/Tarak_logo.c11217fef1a4accf8e5d.png",
     "static/media/typescript.png": "/static/media/typescript.4e3f27e6784d69f4f587.png",
     "static/media/Redux.png": "/static/media/Redux.3ba17bcb0a979a1d1c70.png",
     "static/media/Mongodb.png": "/static/media/Mongodb.c197e13d660872477e70.png",
     "static/media/css.png": "/static/media/css.6402b604475346c0ff73.png",
-    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
-    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/jest.png": "/static/media/jest.086e6a754a5dccd97164.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.2a8c995b.css.map": "/static/css/main.2a8c995b.css.map",
-    "main.b911a524.js.map": "/static/js/main.b911a524.js.map",
+    "main.809745d9.css.map": "/static/css/main.809745d9.css.map",
+    "main.648d6b84.js.map": "/static/js/main.648d6b84.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a8c995b.css",
-    "static/js/main.b911a524.js"
+    "static/css/main.809745d9.css",
+    "static/js/main.648d6b84.js"
   ]
 }
