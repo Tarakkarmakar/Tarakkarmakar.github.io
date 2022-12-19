@@ -1,0 +1,31 @@
+
+.contact_text{
+    margin-top: 15vh;
+    text-align: center;
+}
+.contact_main{
+    margin-top: 8vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15%;
+    padding: 5%;
+    background-color: rgb(30, 13, 57);
+}
+.contact_details>div{
+    display: grid;
+    margin-bottom: 5%;
+    grid-template-columns: repeat(1, 1fr);
+   
+width: 70%;
+    background-color: rgb(30, 13, 57);
+padding: 4%;
+border: 2px solid var(--yellow);
+color: var(--yellow);
+
+border-start-end-radius:  15%;
+}
+
+.contact_details>div>h1{
+
+    font-size: 150%;
+}

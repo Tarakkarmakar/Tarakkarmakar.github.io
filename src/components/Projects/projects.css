@@ -1,0 +1,93 @@
+.project_main{
+margin-top: 10vh;
+    display: grid;
+
+    grid-template-columns: repeat(1 1fr);
+
+    gap: 5rem;
+}
+
+.project_main>div{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin: auto;
+width: 85%;
+background-color: rgb(30, 13, 57);
+ 
+
+align-items: center;
+
+}
+
+.project_main>div>div{
+ 
+    padding: 5%;
+    color: white;
+    font-size: 110%;
+   
+}
+
+.project_main>div>div>img{
+    width: 100%;
+}
+
+/* .project_main>div>div>img:hover{
+    width: 101%;
+    height: 101%;
+} */
+
+.right_box{display: grid;
+
+grid-template-columns: repeat(1 1fr);
+
+gap: 4%;}
+
+.icon_box{
+    display: flex;
+}
+
+.icon_box>img{
+    width: 10%;
+    height: 60%;
+
+    display: block;
+    margin-right: 4%;
+}
+.pbutton{
+    margin-right: 3%;
+}
+
+
+@media all and (min-width: 10px) and (max-width: 890px) {
+
+    .project_main>div{
+width: 95%;
+font-size: 70%;
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+}
+
+
+@media all and (min-width: 890px) and (max-width: 1000px) {
+    .project_main>div{
+        width:95%;
+        font-size: 80%;
+
+    }
+   
+
+}
+
+
+@media all and (min-width: 0px) and (max-width: 500px) {
+    
+
+.pbutton{
+    width: 20%;
+   padding: 3%;
+    font-size: 80%;
+}
+   
+
+}

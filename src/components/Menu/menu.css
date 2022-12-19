@@ -1,0 +1,16 @@
+.menu_none{display: none;}
+.menu{ width: 100%;
+    display: flex;
+margin: auto;
+padding: 5%;
+
+
+    height: 30vh;
+
+}
+.menu>div{margin: auto;
+}
+
+.menu>div>ul>li{list-style-type: none;
+    margin-bottom: 15% ;
+font-size: 20px;}
