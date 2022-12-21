@@ -50,10 +50,10 @@ const Skills = () => {
 
 
         </div>
-        <br />
+   
         <br />
 
-    <h2 align="center" >Back End</h2>
+    <h2 align="center" className="back" >Back End</h2>
 
 
         <div className="back_end">
@@ -117,7 +117,7 @@ const Skills = () => {
     <h1 >GitHub  Calendar</h1>
    
 
-   <img src={calendar} alt="" className="cal" />
+   <img  src={calendar} alt="" className="cal" />
 
    </div>
 

@@ -3,8 +3,19 @@
 import "./About.css"
 
 import men_sitting from "../../images/men_sitting.png";
+
+import about from "../../images/about.png";
 const About = () => {
   return (
+
+    <>
+
+
+    
+<div className='about_div'>
+
+<img className='about_ico' src={about} alt="" />
+</div>
     <div className="About" id="about">
 
  <div className="about_left">
@@ -22,7 +33,7 @@ const About = () => {
 with 1200 Hours+ of hands-on experience in building
 websites with MERN stack, React, JS, and HTML, CSS.
 </span>
- <br />
+
  <br />
  <span>
 I am always ready to take on new challenges, solving
@@ -34,6 +45,10 @@ Stack Developer in a reputed firm driven by technology.
    
   
     </div>
+
+
+</>
+
   )
 }
 

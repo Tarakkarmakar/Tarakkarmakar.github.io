@@ -24,7 +24,7 @@ const Navbar = ({toggleDarkmode,isDark,setMenu}) => {
 
       <img src={mylogo} alt="" />
         <FormLabel>{isDark ?<MoonIcon />:<SunIcon />}</FormLabel>
-      <Switch onChange={toggleDarkmode} colorScheme="red" size="md"/>
+      <Switch onChange={toggleDarkmode} colorScheme="green" size="md"/>
        
 
       </div>

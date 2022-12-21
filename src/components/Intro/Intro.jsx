@@ -27,6 +27,7 @@ window.open("https://drive.google.com/file/d/1_4phGBk7v2fhXtOsTaN9T-k1n4RcF6QU/v
   }
 
   return (
+  
     <div className='intro' id="Intro">
 
       <div className='intro_left'>
@@ -57,6 +58,8 @@ window.open("https://drive.google.com/file/d/1_4phGBk7v2fhXtOsTaN9T-k1n4RcF6QU/v
       
  
     </div>
+
+
   )
 }
 

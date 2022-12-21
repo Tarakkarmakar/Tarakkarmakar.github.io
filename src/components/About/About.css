@@ -1,7 +1,7 @@
 .About{
     display: flex;
     padding: 0 3rem 0 3rem;
-   height: 50vh;
+   
    margin-top: 10%;
    margin-bottom: 13rem;
 }
@@ -32,7 +32,7 @@ text-decoration: underline;
     flex-direction: column;
   
 flex: 1;
-margin-top: 2%;}
+margin-top: 5%;}
 
 
 
@@ -61,14 +61,29 @@ font-size:70%;
 
 .head{font-size: 15px;}
 
+
+.about_div{width: 100%;
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: -9%;
+justify-content: center;}
+.about_ico{border-radius: 50%;
+width: 4%;
+align-self: center;}
+
 @media all and (min-width:200px ) and (max-width:900px) {
     
-
+.about_ico{width: 10%;}
   .About{
   display: grid;
+width: 106%;
   row-gap: 3rem;
-  margin-bottom: 50vh;
-  margin-top: 50vh;
+  margin-bottom: 10px;
+
+
+}
+.about_right_side{
+  margin-top: 2%;
 }
   .about_btn{
     width: 20%;

@@ -84,7 +84,11 @@ border-radius: 1.5rem;
 .intro{margin-top: 2vh;}
     .intro_left{
         margin-top: 7%;
+        
     }
+
+
+ 
 
 
 
@@ -102,16 +106,29 @@ border-radius: 1.5rem;
   @media all and (min-width:0px) and  (max-width:550px) {
 .intro{flex-direction: column;
     height: 60vh;
+  
+    margin-bottom: 30%;
 }
 
+.logo_box{
+    width: 80%;
+   margin-right: 15%;
+}
+.logo_box>div{
+    height: 40px;
+    width: 40px;
+}
 .hi{
     font-size: 160%;
 }
 .my_name{font-size: 1.3rem;}
 .dev{font-size: 1.2rem;}
+
+
 .my_logo{
     display: block;
 width: 50%;
+margin-top: 5%;
 margin-bottom: 20%;}
 
   }
