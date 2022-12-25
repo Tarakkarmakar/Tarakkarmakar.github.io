@@ -21,7 +21,8 @@ background:linear-gradient(#1E3B70,
 .button{
   border-radius: 34px;
   border: none;
-  color: white;
+  color: black;
+  background-color:#05e438; ;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
  }
@@ -31,6 +32,3 @@ background:linear-gradient(#1E3B70,
   background: white;
   cursor: pointer;
 }
-
-
-

@@ -104,6 +104,7 @@ position: relative;
   padding-left: 8%;
   gap: 7%;
   row-gap: 4rem;
+  margin-bottom: 6%;
 }
 
 .other > div {
@@ -175,6 +176,18 @@ padding: 1%;
   width: 70%;
 }
 .back{margin-top: 5vh;}
+
+.skill_div{width: 100%;
+  display: flex;
+justify-content: center;}
+
+.skill_ico{border-radius: 50%;
+width: 5%;
+background-color: aliceblue;
+border-radius: 70%;
+align-self: center;}
+
+
 
 @media all and (min-width: 700px) and (max-width: 870px) {
   .Main{padding: 0 10px 0 10px;}

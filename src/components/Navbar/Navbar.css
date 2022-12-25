@@ -57,6 +57,44 @@ font-size: 130%;
 }
 
 
+.IntroH{
+
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 12%;
+  font-size: 20px;
+  }
+  .skillH{
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 12%;
+  font-size: 20px;
+  }
+  
+  .aboutH{
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 12%;
+  font-size: 20px;
+  }
+  .projectH{
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 16%;
+  font-size: 20px;
+  }
+  .contactH{
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 15%;
+  font-size: 20px;
+  }
+  
 
 
 @media all and  (max-width:907px) {
@@ -64,4 +102,34 @@ font-size: 130%;
     .hamb{display: block;}
     .right_nav{display: none;}
  .left_nav>img{width: 47%;}
+  }
+
+  .IntroH:hover{
+
+    background-color: rgb(236, 222, 222);
+    color: black;
+  }
+  
+  .aboutH:hover{
+
+    background-color: rgb(236, 222, 222);
+    color: black;
+  }
+  
+  .skillH:hover{
+
+    background-color: rgb(236, 222, 222);
+    color: black;
+  }
+  
+  .contactH:hover{
+
+    background-color: rgb(236, 222, 222);
+    color: black;
+  }
+  
+  .projectH:hover{
+
+    background-color: rgb(236, 222, 222);
+    color: black;
   }

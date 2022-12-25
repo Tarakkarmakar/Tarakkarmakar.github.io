@@ -26,8 +26,23 @@ import vscode  from "../../images/VScode.png";
 
 import calendar from "../../images/calendar.png";
 
+
+import  skill  from "../../images/skill.png";
+
+
 const Skills = () => {
   return (
+    <>
+
+    <div className="skill_div">
+
+
+    <img className="skill_ico" src={skill} alt="" />
+
+
+    </div>
+
+
     <div className="Main" id="skills">
 
                <h1 ><u>Skills</u> </h1>
@@ -51,6 +66,7 @@ const Skills = () => {
 
         </div>
    
+        <br />
         <br />
 
     <h2 align="center" className="back" >Back End</h2>
@@ -125,6 +141,8 @@ const Skills = () => {
 
       
     </div>
+
+    </>
   )
 }
 

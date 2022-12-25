@@ -35,12 +35,12 @@ const Navbar = ({toggleDarkmode,isDark,setMenu}) => {
       <ul>
 
        
-<li><a href="#Intro">Home</a> </li>
-<li><a href="#about">About</a> </li>
-<li><a href="#skills">  Skills</a>
+<li className='IntroH'><a href="#Intro">Home</a> </li>
+<li className='aboutH'><a href="#about">About</a> </li>
+<li className='skillH'><a href="#skills">  Skills</a>
 </li>
-<li><a href="#project">Projects</a></li>
-<li> <a href="#contact"> Contact</a> </li>
+<li className='projectH'><a href="#project">Projects</a></li>
+<li className='contactH'> <a href="#contact"> Contact</a> </li>
 </ul>
 
       </div>

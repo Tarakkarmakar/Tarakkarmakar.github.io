@@ -1,7 +1,9 @@
 
 .contact_text{
-    margin-top: 15vh;
-    text-align: center;
+    margin-top: 12vh;
+  
+
+    font-size: 170%;
 }
 .contact_main{
     margin-top: 8vh;
@@ -29,3 +31,14 @@ border-start-end-radius:  15%;
 
     font-size: 150%;
 }
+
+.contact_div{width: 100%;
+    margin-top: 7%;
+    display: flex;
+  justify-content: center;}
+  
+  .contact_ico{border-radius: 50%;
+  width: 5%;
+  background-color: black;
+  border-radius: 70%;
+  align-self: center;}
