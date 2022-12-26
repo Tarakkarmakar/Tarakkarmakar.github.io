@@ -1,6 +1,44 @@
 import "./contact.css"
 import contact from "../../images/contact.png";
+
+import {
+  FormControl,
+  FormLabel,
+  Input,
+ 
+  Textarea,
+  FormErrorMessage,
+  FormHelperText,
+} from '@chakra-ui/react'
+import { useRef } from "react";
+
+
+import emailjs from '@emailjs/browser'
+
+
 const Contact = () => {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    
+    e.preventDefault();
+
+alert("messee_coming")
+
+emailjs.sendForm('service_qiwpuzo', 'template_eewcu4g', form.current, 'wQ6WQ5z3AoFpnxZUk')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
+
+
   return (
     <>
 
@@ -15,7 +53,21 @@ const Contact = () => {
      <h1 className="contact_text"> <u> Contact Me</u></h1>
     <div className="contact_main">
     
-        <div>
+        <div className="left_con">
+
+        
+
+        <form ref={form} onSubmit={sendEmail}>
+        <h1 className="get_in">Get In Touch</h1>
+      <FormLabel>Name</FormLabel>
+      <Input background="white" type="text" name="user_name" color='black'/>
+      <FormLabel>Email</FormLabel>
+      <Input background="white" type="email" name="user_email" color='black' />
+      <FormLabel>Message</FormLabel>
+      <Textarea background="white" name="message" color='black'/>
+      <FormLabel></FormLabel>
+      <Input background="#05e438" color="black" type="submit" value="Send" w="50%" align="center" />
+    </form>
 
         </div>
         <div className="contact_details">

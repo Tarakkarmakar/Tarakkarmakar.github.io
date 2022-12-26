@@ -2,14 +2,14 @@
  .APP_DARK{
  
  overflow: hidden;
- padding: 0 1% 0 1%;
+
   font-family:sans-serif; 
   background:linear-gradient(#000000, #923CB5);
 color: white;
 } 
 /* #63D471 */
 .App {
-  padding: 0 1% 0 1%;
+
  overflow: hidden;
   color: rgb(255, 255, 255);
 background:linear-gradient(#1E3B70,

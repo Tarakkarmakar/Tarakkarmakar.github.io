@@ -5,9 +5,11 @@
 gap: 10%;
 
 }
-.Main>h1{font-size: 170%; text-decoration: underline;}
-.Main>h2{font-size: 140%; text-decoration: underline;
-margin-bottom: 3%;}
+.Main>h1{font-size: 170%; text-decoration: underline;
+color: #05e438;}
+.Main>h2{font-size: 150%; text-decoration: underline;
+margin-bottom: 3%;
+color:#05e438}
 
 .front_end {
   margin: auto;

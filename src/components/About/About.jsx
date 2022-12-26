@@ -12,11 +12,11 @@ const About = () => {
 
 
     
-<div className='about_div'>
+<div className='about_div' id="about">
 
 <img className='about_ico' src={about} alt="" />
 </div>
-    <div className="About" id="about">
+    <div className="About" >
 
  <div className="about_left">
 

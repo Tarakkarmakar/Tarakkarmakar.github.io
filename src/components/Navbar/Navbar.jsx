@@ -16,7 +16,7 @@ const Navbar = ({toggleDarkmode,isDark,setMenu}) => {
     
        
 
-    <div className="navbar" id="Home" style={{background :!isDark? "linear-gradient(#1E3B70,#1E3B70":"linear-gradient(#000000, #000000)"}} >
+    <div className="navbar" id="Home" style={{background :!isDark? "linear-gradient(#1e0d39,#1e0d39":"linear-gradient(#000000, #000000)"}} >
 
 
       <div className='left_nav'>

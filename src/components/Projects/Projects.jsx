@@ -52,7 +52,7 @@ const Projects = () => {
       <img src={css} alt=""  width="8%" height="55%"/>
       <img src={javascript} alt="" width="15%" height="55%" />
       <img src={redux} alt="" width="10%" height="45%"/>
-      <img src={chakra} alt="" width="17%" height="55%"/>
+      <img src={chakra} alt="" width="19%" height="55%"/>
   </div>
 
   <div  className="btn_box">
