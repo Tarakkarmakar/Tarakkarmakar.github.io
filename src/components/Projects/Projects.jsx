@@ -14,6 +14,30 @@ import "./projects.css"
 
 import Travel_mojo from "../../images/travel_mojo.png";
 const Projects = () => {
+
+  const openlInk=(param)=>{
+
+    if(param==="TravelDemo"){
+      window.open("https://average-pig-3056.vercel.app/")
+    }else if(param==="TravelCode"){
+      window.open("https://github.com/Preetibildani/average-pig-3056")
+    }
+    else if(param=="RevvCode"){
+      window.open("https://github.com/Tarakkarmakar/righteous-glove-4452/tree/master")
+    }
+    else if(param ==="RevvDemo"){
+      window.open("https://kaleidoscopic-cascaron-704c0c.netlify.app/")
+    }
+    else if(param==="OlxDemo"){
+      window.open("https://637214767a360d15209f91dc--prismatic-entremet-06d5c2.netlify.app/")
+    }
+
+    else if(param==="OlxCode"){
+
+      window.open("https://github.com/Tarakkarmakar/-mute-death-5036")
+    }
+  
+  }
   return (
     <>
 
@@ -57,8 +81,8 @@ const Projects = () => {
 
   <div  className="btn_box">
 
-    <button className="button pbutton">Code</button>
-    <button className="button pbutton">Demo</button>
+    <button className="button pbutton" onClick={()=>openlInk("TravelCode")}>Code</button>
+    <button className="button pbutton" onClick={()=>openlInk("TravelDemo")}>Demo</button>
   </div>
   
   </div>
@@ -91,8 +115,8 @@ const Projects = () => {
               </div>
               <div>
 
-<button className="button pbutton">Code</button>
-<button className="button pbutton">Demo</button>
+<button className="button pbutton" onClick={()=>openlInk("RevvCode")}>Code</button>
+<button className="button pbutton" onClick={()=>openlInk("RevvDemo")}>Demo</button>
 </div>
 
 
@@ -126,8 +150,8 @@ const Projects = () => {
 </div>
 <div>
 
-<button className="button pbutton">Code</button>
-<button className="button pbutton">Demo</button>
+<button className="button pbutton" onClick={()=>openlInk("OlxCode")}>Code</button>
+<button className="button pbutton" onClick={()=>openlInk("OlxDemo")}>Demo</button>
 </div>
 
 
