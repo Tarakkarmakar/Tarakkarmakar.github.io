@@ -29,15 +29,22 @@ import calendar from "../../images/calendar.png";
 
 import  skill  from "../../images/skill.png";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Skills = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
 
     <div className="skill_div">
 
 
-    <img className="skill_ico" src={skill} alt="" />
+    <img className="skill_ico" src={skill} alt="" data-aos="fade-left"/>
 
 
     </div>
@@ -45,23 +52,23 @@ const Skills = () => {
 
     <div className="Main" id="skills">
 
-               <h1 ><u>Skills</u> </h1>
+               <h1 data-aos="fade-right" ><u>Skills</u> </h1>
             
-               <h2 align="center"> Front End</h2>
+               <h2 align="center" data-aos="fade-left"> Front End</h2>
              <br />
         
-        <div className="front_end">
+        <div className="front_end" >
         
-           <div><img width="25%" height="55%"  src={HTML} alt="HTMl" /><span>HTML</span></div>
-           <div><img width="21%" height="55%"  src={css} alt="CSS" /><span id="css">CSS</span></div>
-           <div><img width="56%" height="65%"  src={javascript} alt="Javascript" /><span  id="javascript" >JavaScript</span></div>
-           <div><img width="27%" height="45%" src={react} alt="React" /><span>React</span></div>
-           <div><img width="26%" height="50%" src={redux} alt="Redux" /><span>Redux</span></div>
-           <div><img width="55%" height="55%" src={axios} alt="axios" /><span>axios</span></div>
+           <div data-aos="fade-right"><img width="25%" height="55%"  src={HTML} alt="HTMl" /><span>HTML</span></div>
+           <div data-aos="fade-right"><img width="21%" height="55%"  src={css} alt="CSS" /><span id="css">CSS</span></div>
+           <div data-aos="fade-right"><img width="56%" height="65%"  src={javascript} alt="Javascript" /><span  id="javascript" >JavaScript</span></div>
+           <div data-aos="fade-left"><img width="27%" height="45%" src={react} alt="React" /><span>React</span></div>
+           <div data-aos="fade-left"><img width="26%" height="50%" src={redux} alt="Redux" /><span>Redux</span></div>
+           <div data-aos="fade-left"><img width="55%" height="55%" src={axios} alt="axios" /><span>axios</span></div>
         
-        <div><img width="56%" height="55%" src={chakra} alt="chakra" /><span>Chakra </span></div>
-           <div><img  width="24%" height="50%" src={typescript} alt="typescript" /><span id="typescript" >TypeScript</span></div>
-           <div><img width="28%" height="50%" src={jest} alt="jest" /><span>Jest</span></div>
+        <div data-aos="fade-right"><img width="56%" height="55%" src={chakra} alt="chakra" /><span>Chakra </span></div>
+           <div data-aos="fade-right"><img  width="24%" height="50%" src={typescript} alt="typescript" /><span id="typescript" >TypeScript</span></div>
+           <div data-aos="fade-right"><img width="28%" height="50%" src={jest} alt="jest" /><span>Jest</span></div>
 
 
         </div>
@@ -72,7 +79,7 @@ const Skills = () => {
     <h2 align="center" className="back" >Back End</h2>
 
 
-        <div className="back_end">
+        <div className="back_end" data-aos="fade-left">
 
 
         <div><img width="23%" height="45%" src={nodejs} alt="Node.js" /><span>Node.js</span></div>
@@ -85,7 +92,7 @@ const Skills = () => {
         <br />
         
         <h2 align="center">Others</h2>
-        <div className="other">
+        <div className="other"  data-aos="fade-right">
          
         <div><img width="27%" height="45%" src={github}  alt="github" /><span>GitHub</span></div>
            <div><img width="27%" height="51%" src={npm} alt="npm" /><span>npm</span></div>
@@ -99,7 +106,7 @@ const Skills = () => {
 
 
 
-   <div className="progress_circle">
+   <div className="progress_circle" data-aos="fade-left">
 
 
    <div><CircularProgress value={80} color='red' size="100px"  >
@@ -128,7 +135,7 @@ const Skills = () => {
    
 
 
-   <div className="github_cal">
+   <div className="github_cal" data-aos="fade-right">
 
     <h1 >GitHub  Calendar</h1>
    

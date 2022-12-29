@@ -11,10 +11,14 @@ import react from "../../images/react.png";
 import redux from "../../images/Redux.png";
 import project from "../../images/project.png";
 import "./projects.css"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import Travel_mojo from "../../images/travel_mojo.png";
 const Projects = () => {
-
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const openlInk=(param)=>{
 
     if(param==="TravelDemo"){
@@ -41,17 +45,17 @@ const Projects = () => {
   return (
     <>
 
-    <div className="skill_div">
+    <div className="skill_div" >
 
-      <img src={project} alt="" className="skill_ico project_ico"/>
+      <img src={project} alt="" className="skill_ico project_ico" data-aos="fade-left"/>
     </div>
 
     <div className="project_main" id="project" >
 
-    <h1><u> Projects </u></h1>
+    <h1 data-aos="fade-right"><u> Projects </u></h1>
 
 
-    <div className="third_project">
+    <div className="third_project" data-aos="zoom-in-up">
 
 
 <div>  
@@ -92,7 +96,7 @@ const Projects = () => {
 
 
 
-        <div className="first_project">
+        <div className="first_project" data-aos="zoom-in-up">
           
 
           <div>   
@@ -128,7 +132,7 @@ const Projects = () => {
         </div>
 
 
-        <div className="sec_project">
+        <div className="sec_project" data-aos="zoom-in-up">
 
 
           <div> <img src={olx} alt="" />

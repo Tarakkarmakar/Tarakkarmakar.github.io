@@ -47,7 +47,13 @@ margin-top: 10%;
 }
 .logo_box>div:hover{
 cursor: pointer;
+background-color: antiquewhite;
 }
+.logo_box>a>button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 229, 225);
+    }
+
 .logo_box>div>img{
     width: 60%;
 display: block;

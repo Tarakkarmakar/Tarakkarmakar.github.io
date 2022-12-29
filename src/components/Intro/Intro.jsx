@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import My_logo from "../../images/My_logo.png";
 import github from "../../images/gitHub_black.png";
 
@@ -10,6 +12,9 @@ import "./intro.css"
 
 
 const Intro = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   const openlInk=()=>{
 
@@ -30,7 +35,7 @@ window.open("https://drive.google.com/file/d/1_4phGBk7v2fhXtOsTaN9T-k1n4RcF6QU/v
   
     <div className='intro' id="Intro">
 
-      <div className='intro_left'>
+      <div className='intro_left' data-aos="fade-left">
         <span className='hi'>Hi ! 👋</span>
         <br />
         <span className='my_name'>I am Tarak Karmakar</span>
@@ -39,7 +44,7 @@ window.open("https://drive.google.com/file/d/1_4phGBk7v2fhXtOsTaN9T-k1n4RcF6QU/v
        <span className='dev'>Full Stack Web Developer</span>
        <img src="https://readme-typing-svg.demolab.com/?lines=Interested in working with team;Curious%20to%20learn%20new%20things !&font=Fira%20Code&center=true&width=440&height=45&color=00FF00&background=FFFFFF00&vCenter=true&size=22&pause=1000" />
      
-     <div className='logo_box'>
+     <div className='logo_box' data-aos="fade-left">
 
       
   <div onClick={openGit}><img className='git' width="27%" height="45%" src={github}  alt="github" /></div>

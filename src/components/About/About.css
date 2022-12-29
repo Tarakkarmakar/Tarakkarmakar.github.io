@@ -1,7 +1,7 @@
 .About{
     display: flex;
-    padding: 0 3rem 0 3rem;
-   
+    padding: 0 3% 0 3%;
+   margin: auto;
    margin-top: 10%;
    margin-bottom: 13rem;
 }
@@ -78,7 +78,7 @@ align-self: center;}
 .about_ico{width: 10%;}
   .About{
   display: grid;
-width: 106%;
+width: 90%;
   row-gap: 3rem;
   margin-bottom: 10px;
 }
@@ -91,3 +91,5 @@ width: 106%;
     font-size: 60%;
   }
 }
+
+

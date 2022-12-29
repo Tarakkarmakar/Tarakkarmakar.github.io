@@ -1,11 +1,17 @@
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./About.css"
-
+import React, { useEffect } from 'react'
 import men_sitting from "../../images/men_sitting.png";
 
 import about from "../../images/about.png";
 const About = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
 
     <>
@@ -18,7 +24,7 @@ const About = () => {
 </div>
     <div className="About" >
 
- <div className="about_left">
+ <div className="about_left" data-aos="fade-left">
 
   <h1 className="head">About</h1>
 
@@ -26,7 +32,7 @@ const About = () => {
   
 
       
-    <div className="about_right_side">
+    <div className="about_right_side" data-aos="fade-right">
 
       <span>
       I am an aspiring Full-Stack Web Developer ,skilled in MERN stack

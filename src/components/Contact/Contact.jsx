@@ -1,6 +1,8 @@
 import "./contact.css"
 import contact from "../../images/contact.png";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import {
   FormControl,
   FormLabel,
@@ -17,7 +19,9 @@ import emailjs from '@emailjs/browser'
 
 
 const Contact = () => {
-  
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -44,16 +48,16 @@ emailjs.sendForm('service_qiwpuzo', 'template_eewcu4g', form.current, 'wQ6WQ5z3A
 
     <div className="contact_div">
 
-      <img src={contact} alt=""  className="contact_ico"/>
+      <img src={contact} alt=""  className="contact_ico" data-aos="flip-right"/>
 
     </div>
   
 
     <div id="contact">
-     <h1 className="contact_text"> <u> Contact Me</u></h1>
+     <h1 className="contact_text" data-aos="flip-left"> <u> Contact Me</u></h1>
     <div className="contact_main">
     
-        <div className="left_con">
+        <div className="left_con" data-aos="flip-left">
 
         
 
@@ -70,7 +74,7 @@ emailjs.sendForm('service_qiwpuzo', 'template_eewcu4g', form.current, 'wQ6WQ5z3A
     </form>
 
         </div>
-        <div className="contact_details">
+        <div className="contact_details" data-aos="flip-right">
 
             <div>
                 <h1>Email</h1>
