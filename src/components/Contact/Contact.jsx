@@ -7,7 +7,7 @@ import {
   FormControl,
   FormLabel,
   Input,
- 
+ Alert,
   Textarea,
   FormErrorMessage,
   FormHelperText,
@@ -22,21 +22,7 @@ const Contact = () => {
   useEffect(() => {
     AOS.init();
   }, [])
-  const form = useRef();
 
-  const sendEmail = (e) => {
-    
-    e.preventDefault();
-
-alert("messee_coming")
-
-emailjs.sendForm('service_qiwpuzo', 'template_eewcu4g', form.current, 'wQ6WQ5z3AoFpnxZUk')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
 
 
 
@@ -61,16 +47,16 @@ emailjs.sendForm('service_qiwpuzo', 'template_eewcu4g', form.current, 'wQ6WQ5z3A
 
         
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form action="https://formspree.io/f/mgebezgy" method="POST" align="center">
         <h1 className="get_in">Get In Touch</h1>
       <FormLabel>Name</FormLabel>
-      <Input background="white" type="text" name="user_name" color='black'/>
+      <Input background="white" type="text" name="username" color='black'autoComplete="off"  required />
       <FormLabel>Email</FormLabel>
-      <Input background="white" type="email" name="user_email" color='black' />
+      <Input background="white" type="email" name="Email" color='black' required autoComplete="off"/>
       <FormLabel>Message</FormLabel>
-      <Textarea background="white" name="message" color='black'/>
-      <FormLabel></FormLabel>
-      <Input background="#05e438" color="black" type="submit" value="Send" w="50%" align="center" />
+      <Textarea background="white" name="message" color='black' autoComplete="off" required />
+      <FormLabel ></FormLabel>
+      <Input  background="#05e438" color="black" type="submit" value="Send" w="50%" align="center" />
     </form>
 
         </div>

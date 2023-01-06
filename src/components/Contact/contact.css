@@ -51,15 +51,11 @@ border-start-end-radius:  15%;
 
 .left_con{
     display:flex;
+ margin: auto;
     align-items: flex-start;
     flex: 1;
 }
-  .left_con>form{
-    display: flex;
-width: 60%;
-    flex-direction: column;
-    margin: auto;
-  }
+
   .get_in{
     font-size: 170%;
     color: #05e438;
