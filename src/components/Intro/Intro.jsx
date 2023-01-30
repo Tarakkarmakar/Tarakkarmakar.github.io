@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import My_logo from "../../images/My_logo.png";
 import github from "../../images/gitHub_black.png";
-
+import resume_my from "../../images/Tarak_Karmakar_Resume.pdf"
 import inlogo from "../../images/inlogo.png";
 import Gif from "../../images/giphy.gif"
 import "./intro.css"
@@ -52,7 +52,7 @@ window.open("https://drive.google.com/file/d/1_4phGBk7v2fhXtOsTaN9T-k1n4RcF6QU/v
      <div onClick={openlInk}><img className='in' width="27%" height="45%" src={inlogo}  alt="github" /></div>
 
 
-     <a href="../../images/Tk.pdf.pdf" download><button onClick={openResume} className='resume' downlowd> My Resume </button></a>
+     <a href={resume_my} download><button onClick={openResume} className='resume' downlowd> My Resume </button></a>
      </div>
       </div>
       <div className='intro_right'>

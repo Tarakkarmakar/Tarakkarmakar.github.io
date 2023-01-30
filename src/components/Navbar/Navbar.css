@@ -74,7 +74,14 @@ font-size: 130%;
     width: 12%;
   font-size: 20px;
   }
-  
+  .resumeH{
+    background-color: #05e438;
+    border-radius:2.1rem;
+    color: black;
+    width: 14%;
+  font-size: 20px;
+
+  }
   .aboutH{
     background-color: #05e438;
     border-radius:2.1rem;
