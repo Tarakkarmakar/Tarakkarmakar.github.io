@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b029d993.css",
-    "main.js": "/static/js/main.f973cb08.js",
+    "main.css": "/static/css/main.841674aa.css",
+    "main.js": "/static/js/main.00600dc3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/giphy.gif": "/static/media/giphy.bdbbd063228f7cfecf9b.gif",
+    "static/media/Shop_it.png": "/static/media/Shop_it.49263a88baeec41c2568.png",
     "static/media/Revv.png": "/static/media/Revv.4892f5c28c28a10ee1b8.png",
     "static/media/travel_mojo.png": "/static/media/travel_mojo.fc280d10cad9d61a2c92.png",
     "static/media/olx.png": "/static/media/olx.c092e25f31ba19a3c35f.png",
@@ -29,12 +30,12 @@
     "static/media/jest.png": "/static/media/jest.086e6a754a5dccd97164.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.b029d993.css.map": "/static/css/main.b029d993.css.map",
-    "main.f973cb08.js.map": "/static/js/main.f973cb08.js.map",
+    "main.841674aa.css.map": "/static/css/main.841674aa.css.map",
+    "main.00600dc3.js.map": "/static/js/main.00600dc3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b029d993.css",
-    "static/js/main.f973cb08.js"
+    "static/css/main.841674aa.css",
+    "static/js/main.00600dc3.js"
   ]
 }
