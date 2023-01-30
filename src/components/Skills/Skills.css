@@ -191,6 +191,12 @@ border-radius: 70%;
 align-self: center;}
 
 
+.calendar{
+
+  font-size: 140%;
+  margin-top: 3%;
+}
+
 
 @media all and (min-width: 700px) and (max-width: 870px) {
   .Main{padding: 0 10px 0 10px;}
@@ -306,6 +312,15 @@ padding-left: 0;
   .Main{
     padding: 0;
   }
+  
+.skills_txt{
+  font-size: 80%;
+}
+.calendar{
+
+  font-size: 90%;
+
+}
   .skill_ico{
     width: 12%;
   }
