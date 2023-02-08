@@ -1,95 +1,92 @@
-.About{
-    display: flex;
-    padding: 0 3% 0 3%;
-   margin: auto;
-   margin-top: 10%;
-   margin-bottom: 13rem;
+.About {
+  display: flex;
+  padding: 0 3% 0 3%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 13rem;
 }
-.about_left{
-display: flex;
+.about_left {
+  display: flex;
 
-flex-direction: column;
- position: relative;  
-   flex: 1;
- gap: 2rem;
-  
-    
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  gap: 2rem;
 }
 
-.about_left>:nth-child(1){
-
-font-size: 180%;
-text-decoration: underline;
+.about_left > :nth-child(1) {
+  font-size: 180%;
+  text-decoration: underline;
 }
-.men_img{width: 90%;
+.men_img {
+  width: 90%;
   border-radius: 20px;
   border: 4px solid white;
-
 }
 
-.about_right_side{display: flex;
-   position: relative;
-    flex-direction: column;
-  
-flex: 1;
-margin-top: 5%;}
+.about_right_side {
+  display: flex;
+  position: relative;
+  flex-direction: column;
 
+  flex: 1;
+  margin-top: 5%;
+}
 
-
-
-
-.about_right_side>*{
+.about_right_side > * {
   font-size: 110%;
   text-align: left;
   font-weight: 530;
-
 }
 
-.about_btn{
+.about_btn {
   display: block;
   color: white;
   text-align: center;
-width: 30%;
-padding: 3%;
-margin-top:20px;
-margin: auto;
-font-size:70%;
+  width: 30%;
+  padding: 3%;
+  margin-top: 20px;
+  margin: auto;
+  font-size: 70%;
 }
-.about_right_side>span{
+.about_right_side > span {
   margin-bottom: 6%;
 }
 
-.head{font-size: 15px;
-color:#05e438;
+.head {
+  font-size: 15px;
+  color: #05e438;
 }
 
-
-.about_div{width: 100%;
+.about_div {
+  width: 100%;
   display: flex;
   margin-top: 7%;
   margin-bottom: -9%;
-justify-content: center;}
-.about_ico{border-radius: 50%;
-width: 4%;
-align-self: center;}
+  justify-content: center;
+}
+.about_ico {
+  border-radius: 50%;
+  width: 4%;
+  align-self: center;
+}
 
-@media all and (min-width:200px ) and (max-width:900px) {
-    
-.about_ico{width: 10%;}
-  .About{
-  display: grid;
-width: 90%;
-  row-gap: 3rem;
-  margin-bottom: 10px;
-}
-.about_right_side{
-  margin-top: 2%;
-}
-  .about_btn{
+@media all and (min-width: 200px) and (max-width: 900px) {
+  .about_ico {
+    width: 10%;
+  }
+  .About {
+    display: grid;
+    width: 90%;
+    row-gap: 3rem;
+    margin-bottom: 10px;
+  }
+  .about_right_side {
+    margin-top: 2%;
+  }
+  .about_btn {
     width: 20%;
     margin-top: 10px;
     font-size: 60%;
   }
 }
-
-
