@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.335cd716.css",
-    "main.js": "/static/js/main.7cec055d.js",
+    "main.js": "/static/js/main.c4e313f1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Eco.png": "/static/media/Eco.7c5490091a60c54c321e.png",
     "static/media/Shop_it.png": "/static/media/Shop_it.49263a88baeec41c2568.png",
@@ -12,7 +12,7 @@
     "static/media/calendar.png": "/static/media/calendar.35bd6381af6b6db612b2.png",
     "static/media/project.png": "/static/media/project.f96e678260f6fa5cc538.png",
     "static/media/HTML.png": "/static/media/HTML.3fa3e93660e6ed512957.png",
-    "static/media/Tarak_Karmakar_Resume.pdf": "/static/media/Tarak_Karmakar_Resume.13e349e81f1b5c76aa53.pdf",
+    "static/media/fw20-0769-Tarak_Karmakar-Resume.pdf": "/static/media/fw20-0769-Tarak_Karmakar-Resume.1c25e783d016c248b498.pdf",
     "static/media/skill.png": "/static/media/skill.d7060636c86c8776efc1.png",
     "static/media/VScode.png": "/static/media/VScode.a7b311f737293e86e06f.png",
     "static/media/chakra.png": "/static/media/chakra.d889628ab3417670ece8.png",
@@ -30,11 +30,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.335cd716.css.map": "/static/css/main.335cd716.css.map",
-    "main.7cec055d.js.map": "/static/js/main.7cec055d.js.map",
+    "main.c4e313f1.js.map": "/static/js/main.c4e313f1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.335cd716.css",
-    "static/js/main.7cec055d.js"
+    "static/js/main.c4e313f1.js"
   ]
 }
