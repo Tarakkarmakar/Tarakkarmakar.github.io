@@ -6,11 +6,12 @@ gap: 10%;
 
 }
 .Main>h1{font-size: 170%; text-decoration: underline;
-color: #05e438;
+color: #99ccff;
+font-style: italic;
 margin-left: 2%;}
 .Main>h2{font-size: 150%; text-decoration: underline;
 margin-bottom: 3%;
-color:#05e438}
+color:#99ccff}
 
 .front_end {
   margin: auto;

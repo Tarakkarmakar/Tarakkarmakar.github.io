@@ -1,8 +1,9 @@
-import { FormLabel, Switch } from "@chakra-ui/react";
+import { Button, FormLabel, Switch } from "@chakra-ui/react";
+
+import {Link} from "react-scroll"
 import { MoonIcon, SunIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
-import resume_my from "../../images/Tarak_Karmakar_Resume.pdf";
-
+import resume_my from "../../images/fw20-0769-Tarak_Karmakar-Resume.pdf"
 import mylogo from "../../images/Tarak_logo.png";
 import { useState } from "react";
 const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {
@@ -17,7 +18,7 @@ const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {
       id="Home"
       style={{
         background: !isDark
-          ? "linear-gradient(#1e0d39,#1e0d39"
+          ? "linear-gradient(#000000, #000000)"
           : "linear-gradient(#000000, #000000)",
       }}
     >
@@ -30,27 +31,31 @@ const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {
       <div className="right_nav">
         <ul>
           <li className="IntroH">
-            <a href="#Intro">Home</a>{" "}
+            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={200}   
+            to="Intro">Home</Link>{" "}
           </li>
           <li className="aboutH">
-            <a href="#about">About</a>{" "}
+            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={300}  to="about">About</Link>{" "}
           </li>
 
-          <li onClick={openResume} className="resumeH">
-            <a href={resume_my} download>
-              Resume
-            </a>
-          </li>
+        
           <li className="skillH">
-            <a href="#skills"> Skills</a>
+            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={300} to="skills"> Skills</Link>
           </li>
 
           <li className="projectH">
-            <a href="#project">Projects</a>
+            <Link activeClass="active" spy={true} smooth={true} offset={-150} duration={300} to="project">Projects</Link>
           </li>
           <li className="contactH">
             {" "}
-            <a href="#contact"> Contact</a>{" "}
+            <Link  activeClass="active"  spy={true} smooth={true} offset={-150} duration={300} to="contact"> Contact</Link>{" "}
+          </li>
+          <li  >
+          
+          <a href={resume_my} download>
+              <Button background="#fd7e14" onClick={openResume}  > Resume</Button>
+           
+           </a>
           </li>
         </ul>
       </div>

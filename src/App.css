@@ -4,7 +4,8 @@
  overflow: hidden;
 
   font-family:sans-serif; 
-  background:linear-gradient(#000000, #923CB5);
+  background: linear-gradient(to bottom, #0a192f, #506192);
+  /* background:linear-gradient(#000000, #923CB5); */
 color: white;
 } 
 /* #63D471 */
@@ -21,14 +22,14 @@ background:linear-gradient(#1E3B70,
 .button{
   border-radius: 34px;
   border: none;
-  color: black;
-  background-color:#05e438; ;
+  color: white;
+  background-color:#fd7e14; ;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
  }
 
 
 .button:hover{
-  background: white;
+  background: #ddb18d;
   cursor: pointer;
 }

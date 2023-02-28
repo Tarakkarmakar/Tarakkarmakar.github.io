@@ -1,6 +1,6 @@
-import Buffer from "../../images/Buffer.png";
+
 import Revv from "../../images/Revv.png";
-import olx from "../../images/olx.png";
+import Eco from "../../images/Eco.png";
 import nodejs from "../../images/nodejs.png";
 import express from "../../images/express.png";
 import mongodb from "../../images/Mongodb.png";
@@ -24,21 +24,21 @@ const Projects = () => {
   }, []);
   const openlInk = (param) => {
     if (param === "TravelDemo") {
-      window.open("https://average-pig-3056.vercel.app/");
+      window.open("https://storied-florentine-b26252.netlify.app/");
     } else if (param === "TravelCode") {
-      window.open("https://github.com/Preetibildani/average-pig-3056");
+      window.open("https://github.com/Tarakkarmakar/Travel_Mojo");
     } else if (param == "RevvCode") {
       window.open(
         "https://github.com/Tarakkarmakar/righteous-glove-4452/tree/master"
       );
     } else if (param === "RevvDemo") {
       window.open("https://kaleidoscopic-cascaron-704c0c.netlify.app/");
-    } else if (param === "OlxDemo") {
+    } else if (param === "Eco-demo") {
       window.open(
-        "https://637214767a360d15209f91dc--prismatic-entremet-06d5c2.netlify.app/"
+        "https://tarakkarmakar.github.io/Eco-Store/"
       );
-    } else if (param === "OlxCode") {
-      window.open("https://github.com/Tarakkarmakar/-mute-death-5036");
+    } else if (param === "Eco-code") {
+      window.open("https://github.com/Tarakkarmakar/Eco-Store");
     } else if (param === "shopCode") {
       window.open("https://github.com/Tarakkarmakar/shop_it_easy");
     } else if (param === "shopDemo") {
@@ -61,12 +61,53 @@ const Projects = () => {
           <u> Projects </u>
         </h1>
 
+        <div className="sec_project" data-aos="zoom-in-up">
+          <div>
+            {" "}
+            <img src={Eco} alt="" />
+          </div>
+
+          <div className="right_box">
+            <h1>Eco-Store</h1>
+            <div>
+              {" "}
+              Eco-Store is a Ecommerce platform for buying Natural chemical free products.
+               If we avoid plastic so it will good for our nature so one who want to buy
+               buy pollution free product can visit Eco-store.
+
+            </div>
+
+            <div className="icon_box ic_C">
+            <img src={react} alt="" width="12%" height="55%" />
+
+<img src={redux} alt="" width="10%" height="45%" />
+<img src={chakra} alt="" width="19%" height="55%" />
+<img src={mongodb} alt="" width="19%" height="55%" />
+<img src={nodejs} alt="" width="9%" height="35%" />
+<img src={express} alt="" width="19%" height="55%" />
+            </div>
+            <div>
+              <button
+                className="button pbutton"
+                onClick={() => openlInk("Eco-code")}
+              >
+                Code
+              </button>
+              <button
+                className="button pbutton"
+                onClick={() => openlInk("Eco-demo")}
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="third_project" data-aos="zoom-in-up">
           <div>
             <img src={shop_it} alt="" />
           </div>
           <div className="right_box ">
-            <h1>Myntra | Clone</h1>
+            <h1>Myntra.com | Clone</h1>
 
             <div>
               Myntra is the india's largest e-commerce store for fashion and
@@ -176,44 +217,6 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="sec_project" data-aos="zoom-in-up">
-          <div>
-            {" "}
-            <img src={olx} alt="" />
-          </div>
-
-          <div className="right_box">
-            <h1>Olx.in | clone</h1>
-            <div>
-              {" "}
-              OLX.in is an online marketplace for consumer-to-consumer sales,
-              particularly targeting users in emerging markets, with a view to
-              providing a safe, reliable and efficient way for consumers to buy
-              and sell goods.
-            </div>
-
-            <div className="icon_box ic_C">
-              <img src={react} alt="" width="13%" height="55%" />
-              <img src={chakra} alt="" width="20%" height="55%" />
-              <img src={css} alt="" width="8%" height="55%" />
-              <img src={javascript} alt="" width="18%" height="55%" />
-            </div>
-            <div>
-              <button
-                className="button pbutton"
-                onClick={() => openlInk("OlxCode")}
-              >
-                Code
-              </button>
-              <button
-                className="button pbutton"
-                onClick={() => openlInk("OlxDemo")}
-              >
-                Demo
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

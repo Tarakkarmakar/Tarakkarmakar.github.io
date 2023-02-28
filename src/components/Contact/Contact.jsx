@@ -2,6 +2,9 @@ import "./contact.css";
 import contact from "../../images/contact.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import github from "../../images/gitHub_black.png";
+
+import inlogo from "../../images/inlogo.png";
 import { useEffect } from "react";
 import {
   FormControl,
@@ -21,6 +24,13 @@ const Contact = () => {
     AOS.init();
   }, []);
 
+  const openlInk = () => {
+    window.open("https://www.linkedin.com/in/tarak-karmakar-876758234/");
+  };
+  const openGit = () => {
+    window.open("https://github.com/Tarakkarmakar");
+  };
+
   return (
     <>
       <div className="contact_div">
@@ -35,7 +45,7 @@ const Contact = () => {
       <div id="contact">
         <h1 className="contact_text" data-aos="flip-left">
           {" "}
-          <u> Contact Me</u>
+        Contact Me
         </h1>
         <div className="contact_main">
           <div className="left_con" data-aos="flip-left">
@@ -73,13 +83,15 @@ const Contact = () => {
               />
               <FormLabel></FormLabel>
               <Input
-                background="#05e438"
-                color="black"
+                background="#fd7e14"
+                color="white"
                 type="submit"
                 value="Send"
                 w="50%"
                 align="center"
+
               />
+
             </form>
           </div>
           <div className="contact_details" data-aos="flip-right">
@@ -94,6 +106,30 @@ const Contact = () => {
               <h1>Address</h1>
               Bankura ,West Bengal{" "}
             </div>
+            <div id="logo_box_contact" >
+
+          <div onClick={openGit}>
+            <img
+              className="git"
+              width="27%"
+              height="45%"
+              src={github}
+              alt="github"
+            />
+          </div>
+
+          <div onClick={openlInk}>
+            <img
+              className="in"
+              width="27%"
+              height="45%"
+              src={inlogo}
+              alt="Lendein"
+            />
+          </div>
+
+         
+        </div>
           </div>
         </div>
       </div>

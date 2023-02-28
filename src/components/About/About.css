@@ -53,9 +53,10 @@
   margin-bottom: 6%;
 }
 
-.head {
-  font-size: 15px;
-  color: #05e438;
+#head {
+  font-size: 25px;
+  color:#99ccff;
+  font-style: italic;
 }
 
 .about_div {
@@ -72,6 +73,28 @@
 }
 
 @media all and (min-width: 200px) and (max-width: 900px) {
+  .about_ico {
+    width: 10%;
+  }
+  .About {
+    display: grid;
+    width: 90%;
+    row-gap: 3rem;
+    margin-bottom: 10px;
+  }
+  .about_right_side {
+    margin-top: 2%;
+  }
+  .about_btn {
+    width: 20%;
+    margin-top: 10px;
+    font-size: 60%;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 450px) {
+  #head {
+    font-size: 17px;
+  }
   .about_ico {
     width: 10%;
   }

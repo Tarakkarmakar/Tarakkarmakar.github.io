@@ -9,11 +9,13 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 15%;
   padding: 5%;
-  background-color: rgb(30, 13, 57);
+  background:linear-gradient(#000000, #000000);
 }
 
 .contact_text {
-  color: #05e438;
+  color: #99ccff;
+  text-decoration: underline;
+font-style: italic;
   margin-left: 2%;
 }
 .contact_details > div {
@@ -31,7 +33,7 @@
 
 .contact_details > div > h1 {
   font-size: 150%;
-  color: #05e438;
+  color: #fd7e14;
 }
 
 .contact_div {
@@ -58,27 +60,80 @@
 
 .get_in {
   font-size: 170%;
-  color: #05e438;
+  color: #fd7e14;
   display: block;
+}
+#logo_box_contact {
+  display:flex;
+  margin-top: 10%; 
+  gap: 10%;
+
+  justify-content: center;
+ 
+}
+#logo_box_contact > div {
+  height: 50px;
+
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color:#fd7e14;
+  border-radius: 50%;
+}
+#logo_box_contact> div:hover {
+  cursor: pointer;
+  background-color: #dba070;
+}
+#logo_box_contact> a > button:hover {
+  cursor: pointer;
+  background-color: rgb(233, 229, 225);
+}
+
+#logo_box_contact > div > img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 20%;
 }
 
 @media all and (min-width: 521px) and (max-width: 900px) {
   .contact_main {
-    grid-template-columns: repeat(1, 1fr);
+  gap: 10vh;
+   display: flex;
+   flex-direction: column;
   }
-
+  .left_con{
+    margin-left: 30%;
+  }
+  .left_con{
+    width: 100%;
+ 
+    margin-bottom: -4vh;
+  }
   .left_con > form {
     width: 40%;
   }
-  .contact_details {
+ 
+  .contact_details > div {
+    margin-bottom: 5vh;
     margin: auto;
   }
-  .contact_details > div {
+  #logo_box_contact {
+  
     margin-bottom: 1%;
     margin: auto;
+    margin-right: 15%;
+  }
+  #logo_box_contact > div {
+    height: 40px;
+    width: 40px;
+  }
+  .contact_details{
+width: 60% ;
+margin: auto;
   }
 }
-@media all and (min-width: 0px) and (max-width: 520px) {
+@media all and (min-width: 400px) and (max-width: 520px) {
   .contact_main {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -92,6 +147,47 @@
   }
   .contact_details {
     margin-top: -10%;
-    margin-bottom: 40%;
+    margin-bottom: 40%;   
+  }
+  #logo_box_contact {
+  
+    margin-bottom: 1%;
+    margin: auto;
+    margin-right: 15%;
+  }
+  #logo_box_contact > div {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+
+@media all and (min-width: 0px) and (max-width: 400px) {
+
+  .contact_main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .left_con > form {
+    width: 200px;
+  }
+  .contact_details > div {
+    margin-bottom: 1%;
+    margin: auto;
+    font-size: 80%;
+  }
+  .contact_details {
+    margin-top: -10%;
+    margin-bottom: 40%;   
+  }
+  #logo_box_contact {
+  
+    margin-bottom: 1%;
+    margin: auto;
+    margin-right: 15%;
+  }
+  #logo_box_contact > div {
+    height: 40px;
+    width: 40px;
   }
 }

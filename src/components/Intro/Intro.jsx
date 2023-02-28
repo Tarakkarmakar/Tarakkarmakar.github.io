@@ -4,9 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import My_logo from "../../images/My_logo.png";
 import github from "../../images/gitHub_black.png";
-import resume_my from "../../images/Tarak_Karmakar_Resume.pdf";
+import resume_my from "../../images/fw20-0769-Tarak_Karmakar-Resume.pdf";
 import inlogo from "../../images/inlogo.png";
-import Gif from "../../images/giphy.gif";
+
 import "./intro.css";
 
 const Intro = () => {
@@ -35,7 +35,12 @@ const Intro = () => {
         <span className="my_name">I am Tarak Karmakar</span>
 
         <span className="dev">Full Stack Web Developer</span>
-        <img src="https://readme-typing-svg.demolab.com/?lines=Interested in working with team;Curious%20to%20learn%20new%20things !&font=Fira%20Code&center=true&width=440&height=45&color=00FF00&background=FFFFFF00&vCenter=true&size=22&pause=1000" />
+        <img
+          src="https://readme-typing-svg.demolab.com/?lines=Interested in working
+         with team;Curious%20to%20learn%20new%20things 
+         !&font=Fira%20Code&center=true&width=440&height=45&color=#ffff99&background=
+         FFFFFF00&vCenter=true&size=22&pause=1000"
+        />
 
         <div className="logo_box" data-aos="fade-left">
           <div onClick={openGit}>
@@ -54,12 +59,12 @@ const Intro = () => {
               width="27%"
               height="45%"
               src={inlogo}
-              alt="github"
+              alt="Lendein"
             />
           </div>
 
           <a href={resume_my} download>
-            <button onClick={openResume} className="resume" downlowd>
+            <button onClick={openResume} id="resume" downlowd>
               {" "}
               My Resume{" "}
             </button>

@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <div className="About">
         <div className="about_left" data-aos="fade-left">
-          <h1 className="head">About</h1>
+          <span id="head">About</span>
 
           <img className="men_img" src={men_sitting} alt="men" />
         </div>
