@@ -73,7 +73,7 @@ const Projects = () => {
               {" "}
               Eco-Store is a Ecommerce platform for buying Natural chemical free products.
                If we avoid plastic so it will good for our nature so one who want to buy
-               buy pollution free product can visit Eco-store.
+                pollution free product can visit Eco-store.
 
             </div>
 
