@@ -47,14 +47,7 @@ const Projects = () => {
   };
   return (
     <>
-      <div className="skill_div">
-        <img
-          src={project}
-          alt=""
-          className="skill_ico project_ico"
-          data-aos="fade-left"
-        />
-      </div>
+
 
       <div className="project_main" id="project">
         <h1 data-aos="fade-right">

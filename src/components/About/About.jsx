@@ -12,9 +12,7 @@ const About = () => {
 
   return (
     <>
-      <div className="about_div" id="about">
-        <img className="about_ico" src={about} alt="" />
-      </div>
+    
       <div className="About">
         <div className="about_left" data-aos="fade-left">
           <span id="head">About</span>

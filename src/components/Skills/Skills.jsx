@@ -40,9 +40,7 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div className="skill_div">
-        <img className="skill_ico" src={skill} alt="" data-aos="fade-left" />
-      </div>
+
 
       <div className="Main" id="skills">
         <h1 data-aos="fade-right">

@@ -33,14 +33,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact_div">
-        <img
-          src={contact}
-          alt=""
-          className="contact_ico"
-          data-aos="flip-right"
-        />
-      </div>
+ 
 
       <div id="contact">
         <h1 className="contact_text" data-aos="flip-left">

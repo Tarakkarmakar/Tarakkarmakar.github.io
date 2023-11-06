@@ -3,7 +3,7 @@ import { Button, FormLabel, Switch } from "@chakra-ui/react";
 import {Link} from "react-scroll"
 import { MoonIcon, SunIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import "./Navbar.css";
-import resume_my from "../../images/fw20-0769-Tarak_Karmakar-Resume.pdf"
+import resume_my from "../../images/Tarak_Karmakar-Resume.pdf"
 import mylogo from "../../images/Tarak_logo.png";
 import { useState } from "react";
 const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {

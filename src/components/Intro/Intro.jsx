@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import My_logo from "../../images/My_logo.png";
 import github from "../../images/gitHub_black.png";
-import resume_my from "../../images/fw20-0769-Tarak_Karmakar-Resume.pdf";
+import resume_my from "../../images/Tarak_Karmakar-Resume.pdf";
 import inlogo from "../../images/inlogo.png";
 
 import "./intro.css";
