@@ -31,11 +31,13 @@ const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {
       <div className="right_nav">
         <ul>
           <li className="IntroH">
-            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={200}   
+            <Link activeClass="active"  spy={true} smooth={true} offset={0} duration={200}   
             to="Intro">Home</Link>{" "}
           </li>
           <li className="aboutH">
-            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={300}  to="about">About</Link>{" "}
+            <Link activeClass="active" 
+             spy={true} smooth={true} offset={0} duration={300} 
+              to="About">About</Link>{" "}
           </li>
 
         

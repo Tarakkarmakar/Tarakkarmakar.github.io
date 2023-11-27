@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
     
-      <div className="About">
+      <div className="About" id='About'>
         <div className="about_left" data-aos="fade-left">
           <span id="head">About</span>
 
