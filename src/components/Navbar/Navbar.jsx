@@ -36,21 +36,21 @@ const Navbar = ({ toggleDarkmode, isDark, setMenu }) => {
           </li>
           <li className="aboutH">
             <Link activeClass="active" 
-             spy={true} smooth={true} offset={0} duration={300} 
+             spy={true} smooth={true} offset={0} duration={200} 
               to="About">About</Link>{" "}
           </li>
 
         
           <li className="skillH">
-            <Link activeClass="active"  spy={true} smooth={true} offset={-150} duration={300} to="skills"> Skills</Link>
+            <Link activeClass="active"  spy={true} smooth={true} offset={0} duration={200} to="skills"> Skills</Link>
           </li>
 
           <li className="projectH">
-            <Link activeClass="active" spy={true} smooth={true} offset={-150} duration={300} to="project">Projects</Link>
+            <Link activeClass="active" spy={true} smooth={true} offset={0} duration={200} to="project">Projects</Link>
           </li>
           <li className="contactH">
             {" "}
-            <Link  activeClass="active"  spy={true} smooth={true} offset={-150} duration={300} to="contact"> Contact</Link>{" "}
+            <Link  activeClass="active"  spy={true} smooth={true} offset={0} duration={200} to="contact"> Contact</Link>{" "}
           </li>
           <li  >
           
