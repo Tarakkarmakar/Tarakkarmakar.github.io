@@ -30,7 +30,13 @@ const Intro = () => {
   return (
     <div className="intro" id="Intro">
       <div className="intro_left" data-aos="fade-left">
-        <span className="hi">Hi ! 👋</span>
+        <div className="hi_box"><span>Hi !</span>
+
+        <span role="img" className="hi_emoji" aria-label="Waving Hand">👋
+         </span>
+        
+         </div>
+         
         <br />
         <span className="my_name">I am Tarak Karmakar</span>
 

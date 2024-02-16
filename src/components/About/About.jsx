@@ -22,16 +22,16 @@ const About = () => {
 
         <div className="about_right_side" data-aos="fade-right">
           <span>
-            I am an aspiring Full-Stack Web Developer ,skilled in MERN stack
-            with 1200 Hours+ of hands-on experience in building websites with
-            MERN stack, React, JS, and HTML, CSS.
+          Full-Stack Developer proficient in the MERN stack, adept at crafting innovative web apps. Thrived in startup environments, delivering impactful digital solutions. Skilled in React, JavaScript, HTML, and CSS. Passionate about collaborative projects that push boundaries.
           </span>
 
           <br />
           <span>
-            I am always ready to take on new challenges, solving problems
-            smartly. I am excited to start a career as a Full- Stack Developer
-            in a reputed firm driven by technology.
+          I am always ready to take on new challenges,
+           solving problems smartly. Excited to embark on a
+            career as a Full-Stack Developer, I bring proficiency in 
+            the MERN stack, with expertise in React, JavaScript, HTML,
+             and CSS. Eager to contribute innovative solutions to a technology-driven firm.
           </span>
         </div>
       </div>

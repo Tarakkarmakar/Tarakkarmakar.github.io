@@ -33,3 +33,12 @@ background:linear-gradient(#1E3B70,
   background: #ddb18d;
   cursor: pointer;
 }
+
+body {
+  cursor: default; 
+}
+
+
+.application-entered {
+  cursor: url('../src/images/arrow1.png') 10 10, auto;
+}
